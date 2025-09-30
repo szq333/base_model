@@ -1,1 +1,24 @@
-spring.application.name=base_model
+spring:
+  application:
+    name: base_model
+  ai:
+    dashscope:
+      base-url: https://dashscope.aliyuncs.com/compatible-mode/v1
+      api-key: your-key
+      chat:
+        options:
+          model: qwen-plus
+    deepseek:
+      base-url: https://api.deepseek.com/v1
+      api-key: your-key
+      chat:
+        options:
+          model: deepseek-chat
+    openai:
+      base-url: https://api.siliconflow.cn
+      api-key: your-key
+      chat:
+        options:
+          model: deepseek-ai/DeepSeek-R1
+server:
+  port: 8080

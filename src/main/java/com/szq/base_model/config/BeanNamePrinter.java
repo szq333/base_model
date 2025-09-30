@@ -1,4 +1,4 @@
-package com.szq.base_model;
+package com.szq.base_model.config;
 
 import org.springframework.ai.chat.model.ChatModel;
 import org.springframework.boot.CommandLineRunner;
